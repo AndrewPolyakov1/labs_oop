@@ -84,22 +84,22 @@ public:
         return ((this->a * right.b) > (this->a * right.b));
     }
     //< operator overloading
-    bool operator>(const Rational& right)
+    bool operator<(const Rational& right)
     {
         return ((this->a * right.b) < (this->a * right.b));
     }
     //= operator overloading
-    bool operator>(const Rational& right)
+    bool operator==(const Rational& right)
     {
-        return ((this->a * right.b) = (this->a * right.b));
+        return ((this->a * right.b) == (this->a * right.b));
     }
     //>= operator overloading
-    bool operator>(const Rational& right)
+    bool operator>=(const Rational& right)
     {
         return ((this->a * right.b) >= (this->a * right.b));
     }
     //<= operator overloading
-    bool operator>(const Rational& right)
+    bool operator<=(const Rational& right)
     {
         return ((this->a * right.b) <= (this->a * right.b));
     }
